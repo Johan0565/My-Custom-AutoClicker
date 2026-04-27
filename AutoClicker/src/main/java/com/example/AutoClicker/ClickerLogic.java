@@ -18,7 +18,7 @@ public class ClickerLogic implements NativeKeyListener {
 
     // Настройки
     private boolean isActive = false;
-    private final int baseDelay = 90; // Базовая скорость (мс)
+    private final int baseDelay = 75; // Базовая скорость (мс)
     private final int noiseRange = 100; // Шум +/- 50мс
 
     public ClickerLogic() throws AWTException {
